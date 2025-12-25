@@ -1,0 +1,408 @@
+@font-face {
+    font-family: "roboto";
+    src: url(./fonts/roboto/Roboto-Medium.ttf);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+input,
+textarea {
+    font-family: 'roboto', !important;
+}
+
+
+
+/* Navbar ki height aur padding */
+.custom-navbar {
+    padding: 15px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+/* Nav links styling */
+.navbar-nav .nav-link {
+    color: #333366;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+/* Active link color (Purple) */
+.navbar-nav .nav-link.active-link {
+    color: #7B61FF;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #7B61FF;
+}
+
+/* Contact Me Button Styling */
+.btn-contact {
+    border: 1.5px solid #7B61FF;
+    color: #7B61FF;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #7B61FF;
+    color: #ffffff;
+}
+
+
+
+/* Hero Section Layout */
+.hero-section {
+    padding: 80px 0;
+    background: #F5FCFF;
+    min-height: 85vh;
+}
+
+/* Text Styling */
+.hero-text h6 {
+
+    color: #282938;
+}
+
+.hero-text h1 {
+    color: #282938;
+    line-height: 1.2;
+}
+
+.text-purple {
+    color: #5e3bee;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: #1c1e53;
+}
+
+/* Button Styling */
+.btn-primary-custom {
+    background-color: #5e3bee;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary-custom:hover {
+    background-color: #4a2ecc;
+    color: white;
+    box-shadow: 0 4px 15px rgba(94, 59, 238, 0.3);
+}
+
+/* Image Container with Rounded Background */
+.hero-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-image-container img {
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+/* Light Blue Shape behind the person */
+.hero-bg-shape {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 80%;
+    background-color: #dbf0f3;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+
+
+/* Skills Section Styling */
+.skills-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.section-subheading {
+    color: #282938;
+    font-size: 0.9rem;
+}
+
+.section-heading {
+    color: #282938;
+    margin-top: 10px;
+}
+
+/* Individual Skill Card */
+.skill-card {
+    background-color: #F5FCFF;
+    padding: 30px;
+    border-radius: 8px;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+/* Active card effect (Purple bottom border) */
+.skill-card.active-card {
+    border-bottom: 4px solid #5e3bee;
+}
+
+/* Icon Box Styling */
+.icon-box {
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.icon-box img {
+    width: 80px;
+}
+
+.skill-card h4 {
+    color: #282938;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.skill-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+}
+
+
+
+/* Hero Section Three */
+/* Card ki main styling */
+.custom-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img-wrapper {
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Link styling */
+.view-link {
+    color: black;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    font-family: "roboto";
+    border-bottom: 2px solid #5E3BEE;
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.arrow-icon {
+    transition: transform 0.2s ease;
+    font-size: 16px;
+    transform: translateX(5px) rotate(-45deg);
+    color: #006B6A !important; 
+}
+
+.arrow-icontwo{
+    color: black!important; 
+    transform: translateX(5px) rotate(-45deg);
+}
+
+
+.card-body h5 {
+    color: #263238;
+    font-family: "roboto";
+}
+
+ h2 {
+    letter-spacing: -0.5px;
+    font-family: "roboto";
+    }
+  
+
+
+/* Hero Section Four */
+
+.testimonials-section {
+    background: #F5FCFF;
+}
+
+.clienthead{
+    font-family: "Roboto" !important;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-color:#006B6A !important;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    border-color: #4CAF4F !important;
+}
+
+.stars i {
+    font-size: 14px;
+    color:#006B6A;
+}
+
+.testimonial-card p {
+    line-height: 1.6;
+}
+
+
+
+/* Footer Section */
+/* Custom Margin Top & Bottom */
+.contact-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px 0;
+}
+
+.custom-input {
+    border: 1.5px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 12px 15px;
+    transition: all 0.3s ease;   
+}
+
+.custom-input:focus {
+    border-color: #5D3CF3 !important; 
+    box-shadow: 0 0 0 0.2rem rgba(93, 60, 243, 0.1);
+    outline: none;
+}
+
+/* Labels styling */
+.form-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.formfonts h6,
+.formfonts h2{
+    font-family: "Roboto" !important;
+}
+
+.btn-primary{
+    font-family: "roboto"!important;
+}
+
+
+
+/* Last Footer */
+.footer-minimal {
+    background: #F5FCFF;
+    font-family: 'Inter', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: "roboto" !important;
+
+}
+
+.footer-minimal .nav-link {
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-minimal .nav-link:hover {
+    color: #5D3CF3;
+}
+
+.social-icon {
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    color: #5D3CF3;
+    transform: translateY(-3px);
+}
+
+.border-bottom-hover {
+    position: relative;
+}
+
+.border-bottom-hover:hover {
+    text-decoration: underline !important;
+}
+
+
+
+/* Responsive Adjustments */
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .d-flex {
+        justify-content: center;
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .footer-minimal .nav-link {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-5 {
+        font-size: 2.5rem;
+    }
+    .contact-section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+}
+}
